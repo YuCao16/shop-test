@@ -154,82 +154,61 @@ const Contact = ({
                 >
                     {formHeaderText}
                 </Header>
-
-		<form action="https://getform.io/f/ac18c116-4058-4a4c-8ced-00953eefe7d0" method="POST">
-		    <input type="text" name="name">
-		    <input type="email" name="email">
-		    <input type="text" name="message">
-		    <!-- checkbox handle --> 
-		    <input type="checkbox" name="subscribe" value="yes" checked>
-		    <input type="hidden" name="subscribe" value="no">
-		    <!-- radio button handle --> 
-		    <input type="radio" name="gender" value="male" checked>
-		    <input type="radio" name="gender" value="female">
-		    <input type="radio" name="gender" value="other">
-		    <!-- select field handle --> 
-		    <select name="work-experience">
-			<option value="one-year">0-1 years</option>
-			<option value="one-five-years">1-5 years</option>
-			<option value="five-plus-years">5+ years</option>
-		    </select>
-		    <button type="submit">Send</button>
-		</form>
-
-                // <form
-                //     action="#"
-                //     method="POST"
-                //     className="font-light flex flex-col"
-                // >
-                //     <div className="space-y-2">
-                //         <div>
-                //             <label htmlFor="full-name" className="sr-only">
-                //                 {nameInputLabel}
-                //             </label>
-                //             <input
-                //                 type="text"
-                //                 name="full-name"
-                //                 id="full-name"
-                //                 autoComplete="name"
-                //                 className="block w-full py-3 px-4 placeholder-primary/50 placeholder:font-light
-                //             placeholder:text-base placeholder:italic placeholder:uppercase border"
-                //                 placeholder="Name"
-                //             />
-                //         </div>
-                //         <div>
-                //             <label htmlFor="email" className="sr-only">
-                //                 {emailInputLabel}
-                //             </label>
-                //             <input
-                //                 type="email"
-                //                 name="email"
-                //                 id="email"
-                //                 autoComplete="email"
-                //                 className="block w-full py-3 px-4 placeholder-primary/50 placeholder:font-light
-                //             placeholder:text-base placeholder:italic placeholder:uppercase border"
-                //                 placeholder="Email"
-                //             />
-                //         </div>
-                //         <div>
-                //             <label htmlFor="message" className="sr-only">
-                //                 {messageInputLabel}
-                //             </label>
-                //             <textarea
-                //                 id="message"
-                //                 name="message"
-                //                 rows={2}
-                //                 className="block w-full py-3 px-4 placeholder-primary/50 placeholder:font-light
-                //             placeholder:text-base placeholder:italic placeholder:uppercase border"
-                //                 placeholder="Message"
-                //             />
-                //         </div>
-                //     </div>
-                //     <Button
-                //         label={buttonLabel}
-                //         rounded="none"
-                //         additionalClasses={['w-fit text-base font-light text-white bg-primary justify-center '
-                //         + 'uppercase mt-4 md:mt-7 mx-auto md:mx-0']}
-                //     />
-                // </form>
+                <form
+                    action="https://getform.io/f/ac18c116-4058-4a4c-8ced-00953eefe7d0"
+                    method="POST"
+                    className="font-light flex flex-col"
+                >
+                    <div className="space-y-2">
+                        <div>
+                            <label htmlFor="full-name" className="sr-only">
+                                {nameInputLabel}
+                            </label>
+                            <input
+                                type="text"
+                                name="full-name"
+                                id="full-name"
+                                autoComplete="name"
+                                className="block w-full py-3 px-4 placeholder-primary/50 placeholder:font-light
+                            placeholder:text-base placeholder:italic placeholder:uppercase border"
+                                placeholder="Name"
+                            />
+                        </div>
+                        <div>
+                            <label htmlFor="email" className="sr-only">
+                                {emailInputLabel}
+                            </label>
+                            <input
+                                type="email"
+                                name="email"
+                                id="email"
+                                autoComplete="email"
+                                className="block w-full py-3 px-4 placeholder-primary/50 placeholder:font-light
+                            placeholder:text-base placeholder:italic placeholder:uppercase border"
+                                placeholder="Email"
+                            />
+                        </div>
+                        <div>
+                            <label htmlFor="message" className="sr-only">
+                                {messageInputLabel}
+                            </label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows={2}
+                                className="block w-full py-3 px-4 placeholder-primary/50 placeholder:font-light
+                            placeholder:text-base placeholder:italic placeholder:uppercase border"
+                                placeholder="Message"
+                            />
+                        </div>
+                    </div>
+                    <Button
+                        label={buttonLabel}
+                        rounded="none"
+                        additionalClasses={['w-fit text-base font-light text-white bg-primary justify-center '
+                        + 'uppercase mt-4 md:mt-7 mx-auto md:mx-0']}
+                    />
+                </form>
             </div>
         </div>
     </div>
