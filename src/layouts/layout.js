@@ -21,9 +21,9 @@ const Layout = ({ children, additionalClass = [] }) => (
             emailInputLabel="Email"
             messageInputLabel="Message"
             buttonLabel="Contact"
-            phoneNumber="+123 456 789"
-            address="Demo Street"
-            emailAddress="hello@world.com"
+            phoneNumber="+86 135 1324 5677"
+            // address="Demo Street"
+            emailAddress="someemial.outlook.com"
         />
         <Footer />
     </main>
