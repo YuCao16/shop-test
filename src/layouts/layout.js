@@ -22,7 +22,7 @@ const Layout = ({ children, additionalClass = [] }) => (
             messageInputLabel="Message"
             buttonLabel="Contact"
             phoneNumber="+86 135 1324 5677"
-            // address="Demo Street"
+            address="Demo Street"
             emailAddress="someemial.outlook.com"
         />
         <Footer />
